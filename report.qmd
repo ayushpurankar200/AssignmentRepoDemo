@@ -1,0 +1,54 @@
+title: "My Report"
+author: "Yash"
+format: pdf
+quarto render report.qmd --to pdf
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+v
+v
+v
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+v
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+Line 1
+v
+v
+Line 
+Line 50
