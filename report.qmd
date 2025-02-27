@@ -1,54 +1,18 @@
-title: "My Report"
-author: "Yash"
+---
+title: AI Applied to Requirements Definition
+date: last-modified
+author:
+  - name: "Yash Sonar"
+    email: "sonaryd@vcu.edu"
+  - name: "Leiliani Clark"
+    email: "clarkl3@vcu.edu"
+  - name: "Trinitey Tran"
+    email: "trant14@vcu.edu"
+  - name: "Thomas Yang"
+    email: "yangtj2@vcu.edu"
+  - name: "Ayush Purankar"
+    email: "purankaram@vcu.edu"
 format: pdf
+---
+
 quarto render report.qmd --to pdf
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-v
-v
-v
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-v
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-Line 1
-v
-v
-Line 
-Line 50
