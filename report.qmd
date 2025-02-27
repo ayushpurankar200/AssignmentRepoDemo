@@ -27,3 +27,16 @@ quarto render report.qmd --to pdf
 ## Demonstrate how AI is applied in software engineering; practical applications
 ## Provide real-world examples, case studies, or practical applications
 ## Engage audience w/ visuals & examples 
+
+
+Your research should address how AI can be used to define requirements in the software development process.
+
+Please provide the following sections in your report:
+
+1. Introduction about using AI in requirement definition
+
+2. State-of-the-art research AI tools in requirements definition.
+
+3. Choose three tools and compare them their strengths and weaknesses.
+
+4. Look at emerging tools as well.
