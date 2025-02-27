@@ -16,3 +16,14 @@ format: pdf
 ---
 
 quarto render report.qmd --to pdf
+
+# (Topic; intersects AI & software engineering)
+
+## Introduce the topic
+
+# (Research; academic papers, case studies, sources, real-world examples where AI is applied in software engineering)
+
+## Explain core concepts of AI related to the topic
+## Demonstrate how AI is applied in software engineering; practical applications
+## Provide real-world examples, case studies, or practical applications
+## Engage audience w/ visuals & examples 
