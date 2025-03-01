@@ -23,7 +23,8 @@ format: html
 1. Introduction
 2. State-of-the-Art Research AI Tools in Requirements Definition
 3. Comparing AI Tools: Strengths & Weaknesses
-4. Emerging Tools
+4. Case Study: Using AI for Requirements Analysis
+5. Emerging Tools
 
 
 ## Introduction
@@ -38,6 +39,29 @@ This report will explore the latest AI tools used in requirement definition, com
 
 ## State-of-the-Art Research AI Tools in Requirements Definition
 
+Several state-of-the-art AI tools and technologies have been developed to assist in defining and managing software requirements. These tools focus on various aspects of the requirement lifecycle, from gathering and classifying requirements to ensuring consistency and traceability. 
+Here are some of the leading AI tools utilized in requirements definition:
+
+1. Aqua
+
+2. Notion
+
+3. Visure Solutions
+
+4. IBM Engineering Requirements Quality Assistant (RQA)
+
+5. Copilot
+
 ## Comparing AI Tools: Strengths & Weaknesses
 
+## Case Study: Using AI for Requirements Analysis
+
 ## Emerging Tools
+
+Tools such as Self healing software are used to minimize reactive fixes in the workplace due to being able to modify requirements based on "real-time system performance" and anomalies that are detected in the system. Tools such as Self healing software are used to minimize reactive fixes in the workplace due to being able to modify requirements based on "real-time system performance" and anomalies that are detected in the system.
+
+Another example of an AI tool that would be beneficial in the workplace is NLP(Natural language processing). The tool is designed to increase efficiency in the workplace by emphasizing and refining requirements from unstructured text such as emails, user feedback or meeting notes. Ideally, it would identify ambiguities, redundancies, and missing elements in requirement documents.
+
+IBM's "Engineering Requirements Management DOORS (Dynamic Object-Oriented Requirements System)" is another AI-powered tool that can significantly enhance the requirements management process. DOORS uses AI to "improve the quality of engineering requirements as they are written, while also optimizing communication and collaboration among teams and stakeholders (taken from https://www.ibm.com/products/requirements-management)."
+
+There are a number of general tools, such as GPT-4, conversational AI tools that systems can integrate for a user to interact with on a home page, self-healing frameworks as mentioned before, and AI-Augmented testing for requirement validation. GPT-4 can  reduce the time and effort required to draft and review requirements, conversational AI tools can let users interact with AI systems through integrated home page systems, creating a better environment for users to interact with a system, and AI-augmented testing tools can use MLA(Machine Learning Algorithms) to simulate different developmental scenarios to test requirement checks before coding begins, which could cut down development time by removing human checks for a step of a process.
