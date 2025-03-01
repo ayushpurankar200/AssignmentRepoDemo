@@ -1,7 +1,7 @@
 ---
 title-block-banner: true
 title-block-color: #1c1d68
-title: Defining Requirements Utilizing AI 
+title: AI Applied to Requirements Definition
 subtitle: An exploration of how AI can be used to define requirements within the software development process. 
 date: last-modified
 author:
@@ -15,14 +15,18 @@ author:
     email: "yangtj2@vcu.edu"
   - name: "Ayush Purankar"
     email: "purankaram@vcu.edu"
-#format: pdf
+format: 
+  html:
+    toc: true           
+    toc-depth: 3          
+    toc-location: left   
+    toc-title: "Contents" 
+    number-sections: true 
 ---
 
 <!-- quarto render report.qmd --to pdf -->
 
-# AI Applied to Requirements Definition
-
-## Introduction
+# Introduction
 
 In software engineering, a requirement is a condition or capability that a system must meet to satisfy a user's need or business objective. Requirements are the foundation of a successful software project because they ensure that the right product is built from the beginning and improve communication and collaboration among team members. 
 
@@ -32,22 +36,8 @@ By leveraging AI, organizations can improve the quality of requirements, reduce 
 
 This report will explore the latest AI tools used in requirement definition, compare three prominent tools, and discuss emerging AI technologies that promise to further revolutionize the requirement engineering process.
 
-# (Research; academic papers, case studies, sources, real-world examples where AI is applied in software engineering)
+# State-of-the-Art Research AI Tools in Requirements Definition
 
-## Explain core concepts of AI related to the topic
-## Demonstrate how AI is applied in software engineering; practical applications
-## Provide real-world examples, case studies, or practical applications
-## Engage audience w/ visuals & examples 
+# Comparing AI Tools: Strengths & Weaknesses
 
-
-Your research should address how AI can be used to define requirements in the software development process.
-
-Please provide the following sections in your report:
-
-1. Introduction about using AI in requirement definition
-
-2. State-of-the-art research AI tools in requirements definition.
-
-3. Choose three tools and compare them their strengths and weaknesses.
-
-4. Look at emerging tools as well.
+# Emerging Tools
