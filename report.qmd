@@ -15,18 +15,18 @@ author:
     email: "yangtj2@vcu.edu"
   - name: "Ayush Purankar"
     email: "purankaram@vcu.edu"
-format: 
-  html:
-    toc: true           
-    toc-depth: 3          
-    toc-location: left   
-    toc-title: "Contents" 
-    number-sections: true 
+format: html
 ---
 
 <!-- quarto render report.qmd --to pdf -->
+# Table of Contents
+1. Introduction
+2. State-of-the-Art Research AI Tools in Requirements Definition
+3. Comparing AI Tools: Strengths & Weaknesses
+4. Emerging Tools
 
-# Introduction
+
+## Introduction
 
 In software engineering, a requirement is a condition or capability that a system must meet to satisfy a user's need or business objective. Requirements are the foundation of a successful software project because they ensure that the right product is built from the beginning and improve communication and collaboration among team members. 
 
@@ -36,8 +36,8 @@ By leveraging AI, organizations can improve the quality of requirements, reduce 
 
 This report will explore the latest AI tools used in requirement definition, compare three prominent tools, and discuss emerging AI technologies that promise to further revolutionize the requirement engineering process.
 
-# State-of-the-Art Research AI Tools in Requirements Definition
+## State-of-the-Art Research AI Tools in Requirements Definition
 
-# Comparing AI Tools: Strengths & Weaknesses
+## Comparing AI Tools: Strengths & Weaknesses
 
-# Emerging Tools
+## Emerging Tools
