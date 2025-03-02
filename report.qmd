@@ -17,8 +17,6 @@ author:
     email: "purankaram@vcu.edu"
 format: html
 ---
-
-<!-- quarto render report.qmd --to pdf -->
 # Table of Contents
 1. Introduction
 2. State-of-the-Art Research AI Tools in Requirements Definition
@@ -26,55 +24,55 @@ format: html
 4. Case Study: Using AI for Requirements Analysis
 5. Emerging Tools
 
-
-## Introduction
-
+## Introduction 
 In software engineering, a requirement is a condition or capability that a system must meet to satisfy a user's need or business objective. Requirements are the foundation of a successful software project because they ensure that the right product is built from the beginning and improve communication and collaboration among team members. 
 
 The use of Artificial Intelligence (AI) in the software development process is transforming how requirements are defined, analyzed, and managed. Traditionally, defining requirements has been a labor-intensive and error-prone task requiring continuous stakeholder engagement, documentation review, and validation. AI technologies, such as Natural Language Processing (NLP), Machine Learning (ML), and Predictive Analytics, can automate and enhance these processes, ensuring greater accuracy, efficiency, and adaptability.
 
 By leveraging AI, organizations can improve the quality of requirements, reduce ambiguities, and ensure alignment with evolving business needs. Furthermore, AI-driven tools enable automated traceability, predictive requirement prioritization, and the ability to manage changing requirements dynamically.
 
-This report will explore the latest AI tools used in requirement definition, compare three prominent tools, and discuss emerging AI technologies that promise to further revolutionize the requirement engineering process.
+This report will explore the latest AI tools used in requirement definition, compare three prominent tools, and discuss emerging AI technologies that promise to further revolutionize the requirement definition process.
+
+Reference: <https://doi.org/10.1186/s42467-020-00005-4> (& lecture notes)
 
 ## State-of-the-Art Research AI Tools in Requirements Definition
-
 Several state-of-the-art AI tools and technologies have been developed to assist in defining and managing software requirements. These tools focus on various aspects of the requirement lifecycle, from gathering and classifying requirements to ensuring consistency and traceability. 
 Here are some of the leading AI tools utilized in requirements definition:
 
-1. Aqua
+### aqua
+  Aqua (Application Quality Analyzer) is an advanced tool designed to support software development by enhancing requirement management and quality assurance. It uses AI to analyze requirements for completeness, consistency, and ambiguity. Aqua assists in tracking changes, maintaining version control, and providing automated reports. It’s particularly useful in highly regulated industries where precision and compliance are critical.
 
-Aqua (Application Quality Analyzer) is an advanced tool designed to support software development by enhancing requirement management and quality assurance. It uses AI to analyze requirements for completeness, consistency, and ambiguity. Aqua assists in tracking changes, maintaining version control, and providing automated reports. It’s particularly useful in highly regulated industries where precision and compliance are critical.
+Aqua Website: <https://aqua-cloud.io/ai-in-aqua/>
 
-2. Notion
+### Visure Solutions
+  Visure Solutions offers a comprehensive requirements management platform designed for industries requiring high compliance, such as healthcare. Its AI capabilities help automate requirements traceability, identify inconsistencies, and ensure alignment with industry standards. The platform integrates with other development tools, allowing seamless collaboration across the software lifecycle.
 
-Notion is a versatile, AI-powered workspace that combines note-taking, document management, project tracking, and knowledge sharing. It is widely used for capturing and organizing software requirements through collaborative documentation. Notion’s AI features can summarize requirements, generate task lists, and ensure traceability. Its flexible database structure helps manage complex requirement lifecycles efficiently.
+Visure Website: <https://visuresolutions.com/>
 
-3. Visure Solutions
+### IBM Engineering Requirements Quality Assistant (RQA)
+  IBM Engineering RQA leverages AI and natural language processing (NLP) to assess the quality of software requirements. It identifies potential issues like ambiguities, inconsistencies, and missing information. RQA also provides real-time suggestions for improving requirement clarity and completeness. It integrates with IBM’s broader engineering suite, supporting large-scale, mission-critical systems.
 
-Visure Solutions offers a comprehensive requirements management platform designed for industries requiring high compliance, such as aerospace and healthcare. Its AI capabilities help automate requirements traceability, identify inconsistencies, and ensure alignment with industry standards. The platform integrates with other development tools, allowing seamless collaboration across the software lifecycle.
+IBM Webstie: <https://www.ibm.com/docs/en/erqa?topic=engineering-requirements-quality-assistant>
 
-4. IBM Engineering Requirements Quality Assistant (RQA)
+### Notion
+   Notion is a versatile, AI-powered workspace that combines note-taking, document management, project tracking, and knowledge sharing. It is widely used for capturing and organizing software requirements through collaborative documentation. Notion’s AI features can summarize requirements, generate task lists, and ensure traceability. Its flexible database structure helps manage complex requirement lifecycles efficiently.
 
-IBM Engineering RQA leverages AI and natural language processing (NLP) to assess the quality of software requirements. It identifies potential issues like ambiguities, inconsistencies, and missing information. RQA also provides real-time suggestions for improving requirement clarity and completeness. It integrates with IBM’s broader engineering suite, supporting large-scale, mission-critical systems.
-
-5. Copilot
-
-Copilot, developed by GitHub and powered by OpenAI, is an AI pair programming tool that assists developers by suggesting code in real-time. While not exclusively for requirements management, Copilot can help translate software requirements into functional code and documentation. It supports various programming languages and integrates seamlessly with IDEs, aiding in rapid prototyping and ensuring requirements are accurately implemented.
+Notion Website: <https://www.notion.com/>
 
 ## Comparing AI Tools: Strengths & Weaknesses
-
-1. Notion
+### aqua
 - Strengths:
-  - Flexible and Customizable: Allows users to structure and organize requirements using a combination of pages, databases, and templates.
-  - Collaborative Environment: Real-time editing and sharing capabilities make it easy for teams to work together.
-  - AI Assistance: AI features can summarize requirements, generate task lists, and help with documentation.
+  - AI-Powered Requirement Analysis: Uses artificial intelligence to analyze requirements for ambiguity, completeness, duplications, and consistency.
+    - Can even create requirements using speech to text!
+  - Change Management: Tracks changes to requirements and ensures proper version control.
+  - Automated Quality Checks: Provides testing features on requirement quality, reducing human error.
+  - Compliance Support: Helps maintain compliance with industry standards by ensuring high-quality, well-documented requirements.
   
 - Weaknesses:
-  - Limited Formal Traceability: Lacks advanced traceability features required for highly regulated industries such as healthcare.
-  - Scalability Issues: May become difficult to manage as the number of requirements grows in large projects.
+  - Complex Implementation: Requires time and effort to configure and adapt to specific workflows.
+  - Limited Native Integrations: Aqua primarily focuses on large-scale test automation and lacks native integrations with popular issue management tools.
 
-2. Visure Solutions
+### Visure Solutions
 - Strengths:
   - Comprehensive Traceability: Offers end-to-end traceability across the entire requirement lifecycle, ensuring compliance with industry standards.
   - Custom Workflows: Supports complex workflows with customization options tailored to different industries.
@@ -86,7 +84,7 @@ Copilot, developed by GitHub and powered by OpenAI, is an AI pair programming to
   - Cost: Higher pricing makes it less accessible for smaller teams or projects.
   - Limited Collaboration Tools: While powerful for requirement tracking, it lacks advanced real-time collaboration features found in general-purpose platforms like Notion.
 
-3. IBM Engineering Requirements Quality Assistant (RQA)
+### IBM Engineering Requirements Quality Assistant (RQA)
 - Strengths:
   - Advanced AI Analysis: Uses natural language processing (NLP) to evaluate the quality of requirements for clarity, ambiguity, and completeness.
   - Integration with IBM Ecosystem: Seamlessly connects with IBM’s broader engineering tools, making it ideal for large-scale systems.
@@ -97,16 +95,23 @@ Copilot, developed by GitHub and powered by OpenAI, is an AI pair programming to
   - Steep Learning Curve: Requires specialized training to effectively utilize advanced AI capabilities.
   - High Cost: Premium pricing model makes it suitable primarily for large enterprises rather than small organizations.
 
-## Case Studies
+## Case Study: Enhancing Requirements Analysis in Software Development with Generative AI
+A study examining the use of generative AI in Agile development focused on three different user stories. The results demonstrated significant improvements in the requirements analysis process:
 
+- Increased Efficiency: AI assistance reduced analysis time by approximately 20%, allowing teams to work more quickly and effectively.
+- Improved Team Collaboration: The AI streamlined workflows, enhancing team coordination and improving overall project flow.
+- Higher-Quality Acceptance Criteria: Once the AI was provided with well-defined context, it generated superior acceptance criteria and scenarios—outperforming the quality assurance team responsible for supervising the AI.
+- Fewer Bugs: The AI’s ability to identify and account for edge cases led to a 10% reduction in bugs, improving software quality and reducing post-release issues.
 
+This case study highlights how generative AI can enhance both the speed and accuracy of the requirements analysis process, leading to more efficient development cycles and higher-quality software.
+
+Case Study: <https://www.thoughtworks.com/en-us/insights/blog/generative-ai/using-ai-requirements-analysis-case-study>
 
 ## Emerging Tools
-
 Tools such as Self healing software are used to minimize reactive fixes in the workplace due to being able to modify requirements based on "real-time system performance" and anomalies that are detected in the system. Tools such as Self healing software are used to minimize reactive fixes in the workplace due to being able to modify requirements based on "real-time system performance" and anomalies that are detected in the system.
 
 Another example of an AI tool that would be beneficial in the workplace is NLP(Natural language processing). The tool is designed to increase efficiency in the workplace by emphasizing and refining requirements from unstructured text such as emails, user feedback or meeting notes. Ideally, it would identify ambiguities, redundancies, and missing elements in requirement documents.
 
-IBM's "Engineering Requirements Management DOORS (Dynamic Object-Oriented Requirements System)" is another AI-powered tool that can significantly enhance the requirements management process. DOORS uses AI to "improve the quality of engineering requirements as they are written, while also optimizing communication and collaboration among teams and stakeholders (taken from <https://www.ibm.com/products/requirements-management>)."
+IBM's "Engineering Requirements Management DOORS (Dynamic Object-Oriented Requirements System)" is another AI-powered tool that can significantly enhance the requirements management process. DOORS uses AI to "improve the quality of engineering requirements as they are written, while also optimizing communication and collaboration among teams and stakeholders (<https://www.ibm.com/products/requirements-management>)."
 
-There are a number of general tools, such as GPT-4, conversational AI tools that systems can integrate for a user to interact with on a home page, self-healing frameworks as mentioned before, and AI-Augmented testing for requirement validation. GPT-4 can  reduce the time and effort required to draft and review requirements, conversational AI tools can let users interact with AI systems through integrated home page systems, creating a better environment for users to interact with a system, and AI-augmented testing tools can use MLA(Machine Learning Algorithms) to simulate different developmental scenarios to test requirement checks before coding begins, which could cut down development time by removing human checks for a step of a process.
+There are a number of general tools, such as GPT-4, conversational AI tools that systems can integrate for a user to interact with on a home page, self-healing frameworks as mentioned before, and AI-Augmented testing for requirement validation. GPT-4 can  reduce the time and effort required to draft and review requirements, conversational AI tools can let users interact with AI systems through integrated home page systems, creating a better environment for users to interact with a system, and AI-augmented testing tools can use MLA(Machine Learning Algorithms) to simulate different developmental scenarios to test requirement checks before coding begins, which could cut down development time by removing human checks for a step of a process. (<https://openai.com/index/gpt-4/>)
