@@ -15,7 +15,7 @@ author:
     email: "yangtj2@vcu.edu"
   - name: "Ayush Purankar"
     email: "purankaram@vcu.edu"
-format: html
+format: pdf
 ---
 # Table of Contents
 1. Introduction
@@ -75,7 +75,6 @@ Notion Website: <https://www.notion.com/>
 ### Visure Solutions
 - Strengths:
   - Comprehensive Traceability: Offers end-to-end traceability across the entire requirement lifecycle, ensuring compliance with industry standards.
-  - Custom Workflows: Supports complex workflows with customization options tailored to different industries.
   - AI-Powered Consistency Checks: Automates the detection of inconsistencies and missing information.
   - Regulatory Compliance: Ideal for industries requiring strict regulatory adherence (aerospace, automotive, medical devices).
 
