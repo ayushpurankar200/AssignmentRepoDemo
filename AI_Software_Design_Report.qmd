@@ -1,1 +1,35 @@
+---
+title-block-banner: true
+title-block-color: #1c1d68
+title: AI Applied to Software Design
+subtitle: An exploration of how AI can enhance automation, decision-making, and efficiency throughout the software development process.
+date: last-modified
+author:
+  - name: "Yash Sonar"
+    email: "sonaryd@vcu.edu"
+  - name: "Leiliani Clark"
+    email: "clarkl3@vcu.edu"
+  - name: "Trinitey Tran"
+    email: "trant14@vcu.edu"
+  - name: "Thomas Yang"
+    email: "yangtj2@vcu.edu"
+  - name: "Ayush Purankar"
+    email: "purankaram@vcu.edu"
+format: pdf
+---
+# Table of Contents
+1. Introduction
+2. State-of-the-Art Research AI Tools in Software Design
+3. Comparing AI Tools: Strengths & Weaknesses
+4. Case Study: Using AI for Software Design
+5. Emerging Tools
 
+## Introduction 
+
+## State-of-the-Art Research AI Tools in Software Design
+
+## Comparing AI Tools: Strengths & Weaknesses
+
+## Case Study: Using AI for Software Design
+
+## Emerging Tools
