@@ -26,10 +26,14 @@ format: pdf
 
 ## Introduction 
 
+
 ## State-of-the-Art Research AI Tools in Software Design
+
 
 ## Comparing AI Tools: Strengths & Weaknesses
 
+
 ## Case Study: Using AI for Software Design
+
 
 ## Emerging Tools
